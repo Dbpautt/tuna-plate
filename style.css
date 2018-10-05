@@ -35,6 +35,10 @@ body {
   }
 }
 
+.main-content{
+  background: url('../public/imgs/615-1.jpg')
+}
+
 /* ---- header ---- */
 
 /* ---- footer ---- */
