@@ -22,14 +22,14 @@ body {
 
 h1 {
   font-size: 57px;
-  margin-bottom: 38%;
+  margin-bottom: 33%;
 
 }
 
 h2 {
   font-size: 36px;
   margin-bottom: 10px;
-  padding-top: 24px;
+  padding-top: 54px;
 }
 
 h3 {
@@ -53,6 +53,9 @@ h5{
 
 p {
   margin-bottom: 10px;
+}
+a{
+  font-size: 20px;
 }
 
 /* ---- layout ---- */
@@ -109,7 +112,7 @@ main img {
   width: 100%;
   background-color: #C42744 ;
   color: #fff;
-  padding: 10px;
+  padding: 15px;
   text-decoration: none;
   text-transform: uppercase;
   display: inline-block;
@@ -131,12 +134,13 @@ main img {
 .benefits div{
   display: flex;
   flex-direction: column;
-  text-align: center;
 }
 
 .card{
   margin: 0 65px;
   padding-top: 30px;
+  text-align: center;
+
 }
 
 .icon{
