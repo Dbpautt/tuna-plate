@@ -22,18 +22,18 @@ body {
 
 h1 {
   font-size: 57px;
-  margin-bottom: 30%;
+  margin-bottom: 38%;
 
 }
 
 h2 {
   font-size: 36px;
   margin-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 24px;
 }
 
 h3 {
-  font-size: 36px;
+  font-size: 26px;
   margin-bottom: 10px;
   padding-top: 10px;
 
@@ -43,8 +43,14 @@ h4{
   margin: 0;
 }
 
+h5{
+  font-size: 36px;
+  margin: 0;
+  margin-bottom: 15px;
+
+}
+
 p {
-  padding-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -95,12 +101,6 @@ main img {
   z-index: -1;
 }
 
-/* ---- header ---- */
-
-
-/* ---- footer ---- */
-
-
 /* ---- components ---- */
 
 
@@ -113,10 +113,11 @@ main img {
   text-transform: uppercase;
   display: inline-block;
   text-align: center;
-  max-width: 300px;
+  max-width: 333px;
   margin: 20px auto;
   box-shadow: 0 1px 1px #D4D5D4;
   border-radius: 3px;
+  
 }
 
 .benefits{
@@ -129,12 +130,19 @@ main img {
 .benefits div{
   display: flex;
   flex-direction: column;
-  
+  text-align: center;
+}
+
+.card{
+  margin: 0 65px;
+  padding-top: 30px;
 }
 
 .icon{
   position: unset;
   width: 20%;
   margin: 0 auto;
+  margin-bottom: 12px;
+
 }
 

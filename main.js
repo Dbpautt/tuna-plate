@@ -1,7 +1,12 @@
 'use strict';
 
 function main () {
-  console.log('JS Running');
-}
-
+  var boton = document.getSelection(' a .button') ;
+ 
+  function botonChange(){
+    boton.innertext= 'THANK YOU!'
+  }
+ 
+  boton.addEventListener('click', botonChange)
+ }
 window.addEventListener('load', main);
