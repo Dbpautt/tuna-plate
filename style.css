@@ -16,20 +16,54 @@ body {
 /* ---- typography ---- */
 
 body {
+  font-family: 'Lato', sans-serif;
+
 }
 
-h1 {}
+h1 {
+  font-size: 57px;
+  margin-bottom: 30%;
 
-h2 {}
+}
 
-h3 {}
+h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
 
-p {
-  padding-top: 30px;
+h3 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+
+}
+
+h4{
   margin: 0;
 }
+
+p {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
 /* ---- layout ---- */
 
+
+
+.header {
+  top: 0;
+  height: auto;
+  width: auto;
+  z-index: 3;
+}
+
+.header img{ 
+  width: 35%;
+  float: right;
+
+}
 
 .container {
   margin: 0 20px;
@@ -50,31 +84,57 @@ p {
 .main-content{
   color: #fff
 }
-.main-content img {
+
+.content{
+  padding-top: 30px;
+}
+
+main img {
   position: absolute;
-  width: 100%;
+  height: 100%;
   z-index: -1;
 }
 
 /* ---- header ---- */
 
+
 /* ---- footer ---- */
+
 
 /* ---- components ---- */
 
+
 .button {
   width: 100%;
-  background-color: firebrick ;
-  opacity: 0.5;
+  background-color: #C42744 ;
   color: #fff;
-  border: 1px solid #fff;
   padding: 10px;
   text-decoration: none;
   text-transform: uppercase;
   display: inline-block;
   text-align: center;
   max-width: 300px;
+  margin: 20px auto;
+  box-shadow: 0 1px 1px #D4D5D4;
+  border-radius: 3px;
 }
 
-/* ---- css shame ---- */
+.benefits{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.benefits div{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.icon{
+  position: unset;
+  width: 20%;
+  margin: 0 auto;
+}
 
