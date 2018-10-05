@@ -1,19 +1,39 @@
-# tuna-plate 2018
+# About this project
 
-> Internal Ironhack Barcelona Hackathon (UX/UI + WebDev)
+This repository holds the source code for our 2018 Octobers hackathon. A landing page for Superfoods Inc. 
 
-## How to use
+## Description
 
-- Fork to your github account
-- Use this file to describe your project, plan, take notes, todos, etc...
-- Have fun
+This is a Landing page that allows users to learn more abut superfoods, specifically about Rambutan, the benefits, information aobut Supperfoods Inc and a CTA.
 
-### Files included:
+This is a pitch page: 
+most commonly used to → attract customers to a product and showcase product instead of lead generation
 
-  - `index.html`
-  - `style.css`
-  - `main.js`
 
-### Folders included:
+## User Stories
 
-  - `./assets` (add images, fonts, etc...)
+- **seller information** - As a user I want to understand what's the content of the website about.
+- **product information** - As a user I want to understand what's the products purpose, and the bennefits.
+- **CTA** - As a user I want to understand what am I supposed to do on this landing. What's the Call to Action for me.
+- **promote product** -As a vendor I want to reach a wider audience of users and popularize superfoods. 
+
+## Backlog
+
+List of other features outside of the scope:
+
+- Desktop CSS
+- Desktop version
+- Tablet version
+- Tablet CSS
+- Add a video
+
+
+### Git
+
+[Repository Link](https://github.com/Dbpautt/tuna-plate)
+
+[Deploy Link](https://dbpautt.github.io/tuna-plate/)
+
+### Slides
+
+[Slides Link](https://slides.com/josemorales-2/deck)
